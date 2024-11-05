@@ -2,16 +2,18 @@
 title: "Week 2 - Starting a Project and Reading in Data"
 author: "Tucker Keuter"
 date: "`r Sys.Date()`"
-output: ioslides_presentation
+output:
+  beamer_presentation: default
+  ioslides_presentation: default
 ---
 
-## Kickoff Activity
-- Open the file `bigData.csv` with the tool of your choice
-    - What tool did you use?
-    - How long does it take to open?
-    - How many rows does it have?
-    
-- Run `install.packages('tidyverse')` in R
+<!-- ## Kickoff Activity -->
+<!-- - Open the file `bigData.csv` with the tool of your choice -->
+<!--     - What tool did you use? -->
+<!--     - How long does it take to open? -->
+<!--     - How many rows does it have? -->
+
+<!-- - Run `install.packages('tidyverse')` in R -->
 
 ## Starting a Project
 - An R project simply a folder where all scripts, data, and other content related to your project will exist
